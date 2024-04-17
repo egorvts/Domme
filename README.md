@@ -1,10 +1,10 @@
 # Domme™ – Real Estate Agency Website
 
-### Credits:
-Images – [Unsplash®](https://unsplash.com/)
+#### Credits:  
+Images – [Unsplash®](https://unsplash.com/)\
 Map data – [Google Maps®](https://www.google.com/maps)
 
-Special symbols:
-(\*) in commit message means that feature is still in development
+#### Special symbols:
+- (\*) in commit message means that feature is still in development
 
-©2024 Egor Vetoshkin
+##### ©2024 Egor Vetoshkin

@@ -12,7 +12,17 @@ const Footer = () => {
             Copyright © 2024 Domme Inc, all rights reserved
           </p>
           <p className="text-sm text-neutral-500">
-            Images downloaded from Unsplash® <br /> and belong to their creators
+            Images{" "}
+            <a href="https://unsplash.com/" className="hover:text-neutral-400">
+              Unsplash®
+            </a>{" "}
+            <br /> Map data{" "}
+            <a
+              href="https://www.google.com/maps"
+              className="hover:text-neutral-400"
+            >
+              Google Maps®
+            </a>
           </p>
         </div>
       </div>

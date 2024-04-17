@@ -4,6 +4,8 @@ import Hero from "@/components/Hero";
 import Newsletter from "@/components/Newsletter";
 import Recommended from "@/components/Recommended";
 import SearchWidget from "@/components/SearchWidget";
+import BG from "./../../public/newsletterbg.png";
+import BG2 from "./../../public/contactformbg.png";
 
 export default function Home() {
   return (
@@ -12,7 +14,8 @@ export default function Home() {
       <Featured />
       <SearchWidget />
       <Recommended />
-      <Newsletter />
+      <Newsletter type="email" img={BG} />
+      {/* <Newsletter type="phone" img={BG2} /> */}
     </main>
   );
 }

@@ -6,10 +6,14 @@ import { Button } from "./ui/button";
 
 const Recommended = () => {
   return (
-    <div>
-      <div className="grid grid-cols-2 px-8">
+    <>
+      <div className="grid md:grid-cols-2 px-8">
         <div>
-          <Image src={Recommended1} alt="House image" className="w-full" />
+          <Image
+            src={Recommended1}
+            alt="House image"
+            className="w-full object-cover mb-4 md:m-0"
+          />
         </div>
         <div className="flex flex-col gap-4 my-auto  ml-8">
           <div className="flex flex-col gap-2">
@@ -49,10 +53,14 @@ const Recommended = () => {
           </div>
         </div>
         <div>
-          <Image src={Recommended2} alt="House image" className="w-full" />
+          <Image
+            src={Recommended2}
+            alt="House image"
+            className="w-full object-cover"
+          />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Recommended;

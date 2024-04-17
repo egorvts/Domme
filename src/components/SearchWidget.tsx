@@ -7,7 +7,12 @@ const SearchWidget = () => {
   return (
     <div className="relative h-96">
       <div className="z-[-1]">
-        <Image src={BG} alt="House image" fill={true} />
+        <Image
+          src={BG}
+          alt="House image"
+          fill={true}
+          className="object-cover"
+        />
       </div>
       <div className="absolute flex flex-col gap-6 h-96 justify-center px-8">
         <div className="gap-4">

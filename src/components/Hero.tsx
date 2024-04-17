@@ -7,7 +7,12 @@ const Hero = () => {
   return (
     <div className="relative h-dvh w-dvw">
       <div className="z-[-1]">
-        <Image src={BG} alt="House image" fill={true} />
+        <Image
+          src={BG}
+          alt="House image"
+          fill={true}
+          className="object-cover"
+        />
       </div>
       <div className="absolute flex flex-col gap-6 h-dvh justify-center px-8">
         <div className="gap-4">

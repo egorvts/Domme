@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Featured = () => {
   return (
-    <div className="grid grid-cols-3 px-8 gap-8">
+    <div className="grid md:grid-cols-3 px-8 gap-8">
       <div className="col-span-2">
         <Image src={Selected} alt="House image" className="w-full" />
       </div>

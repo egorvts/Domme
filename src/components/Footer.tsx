@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="h-48 px-8 bg-black grid grid-cols-4">
+    <div className="p-8 md:py-12 gap-8 bg-black grid md:grid-cols-4">
       <div className="col-span-2 flex flex-col gap-4 my-auto">
         <Link href="/" className="text-white text-2xl hover:underline">
           Domme

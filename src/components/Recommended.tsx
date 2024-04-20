@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 const Recommended = () => {
   return (
-    <>
+    <div>
       <div className="grid md:grid-cols-2 px-8">
         <div>
           <Image
@@ -60,7 +60,7 @@ const Recommended = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Recommended;

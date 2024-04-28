@@ -30,7 +30,11 @@ const Card = (props: {
         </div>
       )}
       <div className="py-4 relative">
-        {props.title && <h2 className="text-xl">{props.title}</h2>}
+        {props.title && (
+          <h2 className="text-xl cursor-pointer hover:underline">
+            {props.title}
+          </h2>
+        )}
         {props.description && (
           <p className="text-neutral-500">{props.description}</p>
         )}

@@ -15,11 +15,9 @@ const Hero = () => {
         />
       </div>
       <div className="absolute flex flex-col gap-6 h-dvh justify-center px-8">
-        <div className="gap-4">
+        <div className="flex flex-col gap-2">
           <h1 className="text-4xl">Dream apartment? &#8212; Easy with Domme</h1>
-          <p>
-            Unique architecture, scenic view <br /> and best vibes
-          </p>
+          <p>Unique architecture, scenic view and best vibes</p>
         </div>
         <div className="flex gap-2">
           <Button className="rounded-xl">

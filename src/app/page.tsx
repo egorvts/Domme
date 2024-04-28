@@ -15,14 +15,7 @@ import Recommended2 from "./../../public/recommended2.png";
 export default function Home() {
   return (
     <main className="flex flex-col gap-8">
-      {/* <Card
-        img={Recommended1}
-        link="/selected"
-        title="Card"
-        description="This house received a high international rating and&nbsp;many architectural awards"
-        cta="Buy now"
-        secondary="Learn more"
-      /> */}
+      <Header />
       <Hero />
       <Featured />
       <SearchWidget />

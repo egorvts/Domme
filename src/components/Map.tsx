@@ -11,10 +11,10 @@ const Map = () => {
 
   return (
     isClient && (
-      <div className="w-full">
+      <div className="w-full h-screen">
         <iframe
           width="100%"
-          height="600"
+          height="100%"
           // frameborder="0"
           scrolling="no"
           // marginheight="0"

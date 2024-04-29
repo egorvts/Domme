@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 const Recommended = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-12 md:gap-0">
       <div className="grid md:grid-cols-2 px-8">
         <div>
           <Image
@@ -15,7 +15,7 @@ const Recommended = () => {
             className="w-full object-cover mb-4 md:m-0"
           />
         </div>
-        <div className="flex flex-col gap-4 my-auto  ml-8">
+        <div className="flex flex-col gap-4 my-auto md:ml-8">
           <div className="flex flex-col gap-2">
             <h3 className="text-4xl">"Waves" &#8212; Market st. 44</h3>
             <p className="text-neutral-400 leading-4">
@@ -34,7 +34,14 @@ const Recommended = () => {
         </div>
       </div>
       {/* Second */}
-      <div className="grid grid-cols-2 px-8">
+      <div className="grid md:grid-cols-2 px-8">
+        <div className="md:hidden">
+          <Image
+            src={Recommended2}
+            alt="House image"
+            className="w-full object-cover mb-4"
+          />
+        </div>
         <div className="flex flex-col gap-4 my-auto">
           <div className="flex flex-col gap-2">
             <h3 className="text-4xl">"Nature" &#8212; Theatre st. 22</h3>
@@ -52,7 +59,7 @@ const Recommended = () => {
             </Button>
           </div>
         </div>
-        <div>
+        <div className="hidden md:block">
           <Image
             src={Recommended2}
             alt="House image"

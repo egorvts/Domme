@@ -9,4 +9,4 @@ Map data – [Google Maps®](https://www.google.com/maps)
 
 (\*) in commit message means that feature is still in development
 
-##### ©2024 Egor Vetoshkin
+##### © 2024 Egor Vetoshkin

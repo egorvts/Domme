@@ -7,21 +7,34 @@ const Footer = () => {
         <Link href="/" className="text-white text-2xl hover:underline">
           Domme
         </Link>
-        <div className="flex flex-col gap-2">
-          <p className="text-sm text-neutral-500">
+        <div className="flex flex-col gap-2 text-neutral-500">
+          <p className="text-sm">
             Copyright © 2024 Domme Inc, all rights reserved
           </p>
-          <p className="text-sm text-neutral-500">
+          <p className="text-sm ">
             Images{" "}
-            <a href="https://unsplash.com/" className="hover:text-neutral-400">
+            <a
+              target="_blank"
+              href="https://unsplash.com/"
+              className="hover:text-neutral-400"
+            >
               Unsplash®
             </a>{" "}
             <br /> Map data{" "}
             <a
+              target="_blank"
               href="https://www.google.com/maps"
               className="hover:text-neutral-400"
             >
               Google Maps®
+            </a>{" "}
+            <br /> Design and Development{" "}
+            <a
+              target="_blank"
+              href="http://egors-portfolio.tilda.ws"
+              className="hover:text-neutral-400"
+            >
+              ©Egor Vetoshkin
             </a>
           </p>
         </div>

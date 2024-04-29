@@ -5,16 +5,11 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative h-dvh w-dvw">
+    <div className="relative h-lvh w-lvw">
       <div className="z-[-1]">
-        <Image
-          src={BG}
-          alt="House image"
-          fill={true}
-          className="object-cover"
-        />
+        <Image src={BG} alt="House image" fill className="object-cover" />
       </div>
-      <div className="absolute flex flex-col gap-6 h-dvh justify-center px-8">
+      <div className="absolute flex flex-col gap-6 h-lvh justify-center px-8">
         <div className="flex flex-col gap-2">
           <h1 className="text-4xl">Dream apartment? &#8212; Easy with Domme</h1>
           <p>Unique architecture, scenic view and best vibes</p>

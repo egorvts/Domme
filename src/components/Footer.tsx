@@ -44,9 +44,12 @@ const Footer = () => {
         <p className="text-neutral-500 hover:text-neutral-400 cursor-pointer">
           Etaj
         </p>
-        <p className="text-neutral-500 hover:text-neutral-400 cursor-pointer">
+        <Link
+          href="/selected/waves"
+          className="text-neutral-500 hover:text-neutral-400"
+        >
           Waves
-        </p>
+        </Link>
         <Link
           href="/selected"
           className="text-neutral-500 hover:text-neutral-400"
@@ -62,7 +65,7 @@ const Footer = () => {
           Contact
         </p>
         <p className="text-neutral-500 hover:text-neutral-400 cursor-pointer">
-          Waves
+          Contact us
         </p>
         <Link href="/map" className="text-neutral-500 hover:text-neutral-400">
           View map

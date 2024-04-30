@@ -6,11 +6,13 @@ import Link from "next/link";
 const Featured = () => {
   return (
     <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 px-8">
-      <div className="">
+      <Link href="/selected/waves">
         <Image src={Waves} alt="Waves" className="w-full h-full" />
-      </div>
+      </Link>
       <div className="flex flex-col gap-4">
-        <Image src={Selected} alt="Selected" className="w-full" />
+        <Link href="/selected">
+          <Image src={Selected} alt="Selected" className="w-full" />
+        </Link>
         <div className="flex flex-col gap-1">
           <Link href="/selected" className="text-xl hover:underline">
             Selected

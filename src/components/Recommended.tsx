@@ -25,7 +25,7 @@ const Recommended = () => {
           </div>
           <div className="flex gap-2">
             <Button className="rounded-xl">
-              <Link href="/search">Learn more</Link>
+              <Link href="/selected/waves">Learn more</Link>
             </Button>
             <Button variant="ghost" className="rounded-xl">
               <Link href="/map">View map</Link>

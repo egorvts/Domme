@@ -9,7 +9,29 @@ const Footer = () => {
         </Link>
         <div className="flex flex-col gap-2 text-neutral-500">
           <p className="text-sm">
-            Copyright © 2024 Domme Inc, all rights reserved
+            <a
+              className="hover:text-neutral-400"
+              target="_blank"
+              href="https://github.com/egorvts/Domme"
+            >
+              Domme
+            </a>{" "}
+            © 2022 by{" "}
+            <a
+              className="hover:text-neutral-400"
+              target="_blank"
+              href="http://egors-portfolio.tilda.ws"
+            >
+              Egor Vetoshkin
+            </a>{" "}
+            is licensed under{" "}
+            <a
+              className="hover:text-neutral-400"
+              target="_blank"
+              href="https://creativecommons.org/licenses/by-nc/4.0/"
+            >
+              CC BY-NC 4.0
+            </a>
           </p>
           <p className="text-sm ">
             Images{" "}
@@ -27,14 +49,6 @@ const Footer = () => {
               className="hover:text-neutral-400"
             >
               Google Maps®
-            </a>{" "}
-            <br /> Design and Development{" "}
-            <a
-              target="_blank"
-              href="http://egors-portfolio.tilda.ws"
-              className="hover:text-neutral-400"
-            >
-              ©Egor Vetoshkin
             </a>
           </p>
         </div>

@@ -15,9 +15,9 @@ const Newsletter = (props: { type: string; img: StaticImageData }) => {
       </div>
       <div className="absolute flex flex-col gap-6 h-96 justify-center px-8">
         <div className="gap-4">
-          <h1 className="text-4xl text-white">
+          <h1 className="text-4xl max-w-[500px]">
             {props.type === "email"
-              ? "Find your dream apartment"
+              ? "Receive a weekly selection of the best apartments"
               : "Have questions? Contact us!"}
           </h1>
         </div>
